@@ -1,0 +1,21 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "file-organizer": "tsc && node dist/file-organizer.js",
+    "adding-suffix": "tsc && node dist/adding-suffix.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
